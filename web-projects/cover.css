@@ -1,0 +1,90 @@
+body {
+    padding-top: 50px;
+}
+
+.cover {
+    text-align: center;
+    padding: 130px;
+    background-color: #1f2120;
+    color: white;
+    margin-top: -24px;
+}
+ul.navbar-nav.mr-auto,
+.cover h1 {
+    font-family: 'Arvo', serif;
+}
+ul.navbar-nav.mr-auto{
+    font-size: 13px;
+}
+.assessment h2,
+.assessment h3 {
+    font-family: 'Arvo', serif;
+    text-transform: uppercase;
+
+}
+.assessment{
+    text-align: center;
+}
+
+
+hr{
+    border-top: 1px solid #1571b3;
+    width: 160px;
+    margin-top: 15px
+}
+h2{
+    margin-top: 25px;
+}
+h3{
+    margin-top: 7px;
+    margin-bottom: 15px;
+    font-size: 18px
+}
+button.list-group-item.list-group-item-action{
+    font-size: 15px;
+    
+}
+footer{
+    background-color: #343a40;
+    color: #909d96;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 25px;;
+    text-align: right
+
+}
+@media screen and (min-width: 300px) {
+    .cover h1{
+        font-size: 30px;
+        } 
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 15px;
+        padding-top: 26px;
+    }
+    .cover p{
+        font-size: 12px;
+        padding-top: 30px;
+    }
+    footer{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (min-width: 700px){
+    .cover h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 23px;
+    }
+    .cover p{
+        font-size: 17px;
+    }
+    footer{
+        font-size: 15px;
+    }
+}
+

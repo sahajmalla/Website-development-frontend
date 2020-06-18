@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HMTL5 input types</title>
+	<style type="text/css">
+		form{
+	margin:0 auto;
+	width:400px;
+	padding: 1em;
+	border:1px solid #CCC;
+	border-radius: 1em;
+}
+input{
+	padding:1em;
+	margin:10px 0 0 0;
+}
+
+h3{
+	margin-top: 1;
+}
+	</style>
+</head>
+<body>
+	<form>
+		<h1>HTML5 Input Types</h1>
+		<h2>E-mail adress field</h2>
+		       <label for="email">Normal E-mail :</label>
+		       <input type="email" id="email" name="email">
+		       <br>
+		       <label for="email">Multiple E-mail :</label>
+		       <input type="email" id="email" name="email" multiple><br>
+
+	    <h2>Search Field</h2>
+	    		<label>Search</label>
+	    		<input type="search" id="search" name="search">	<br>
+
+	    <h2>Phone number field</h2>
+	    		<label>Telphone:</label>
+	    		<input type="tel" id="tel" name="tel"><br>
+	    		<br><br>
+            	<label>Enter your phone number in a format(123)456-7895<br>
+            		(<input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size="2"/>)-
+   <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit prefix" size="2"/> - 
+   <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" aria-label="4-digit number" size="3"/>
+ </label><br>
+
+        <h2>URL field</h2>
+        <label>URL:</label>
+        <input type="url" id="url" name="url"><br>
+
+        <h2>Numeric Feild</h2>
+        		<label>Age:</label> 
+        		<input type="number" name="age" id="age" min="1" max="100" step="3"><br>
+
+        <h2>Slider Controls</h2>
+        		<label for="price">Choose a maximum house price:</label>
+        		<input type="range" nmae="range" id="price" min="50000" max="500000" step="100" value="250000"><output class="price-output" for="price"></output><br>
+
+        <h2>Date and Time pickers</h2>
+        		<label>Date:</label>
+        		<input type="datetime-local" name="datetime" id="datetime"><br>
+
+        		<label>Month:</label>
+        		<input type="month" name="month" id="month"><br>
+
+        		<label>Time:</label>
+        		<input type="time" name="time" id="time"><br>
+
+        		<label>Week:</label>
+        		<input type="week" name="week" id="week"><br>
+
+        		<label for="mydate">Are you available this summer?</label>
+        		<input type="date" name="mydate" min="2020-04-01" max="2021-05-06" id="mydate"><br>
+
+        	<h2>Color Picker control</h2>
+        			<label>Pick a color:</label>
+        			<input type="color" name="color" id="color"><br>
+
+        	<button type="submit">Submit</button>
+        
+	</form>
+<script type="text/javascript">
+	const price=document.querySelector('#price');
+	const output=document.querySelector('.price-output');
+	output.textContent=price.value;
+	price.addEventListener('input',function(){
+		output.textContent=price.value;
+	})
+</script>
+</body>
+</html>

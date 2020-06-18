@@ -1,0 +1,316 @@
+body {
+    padding-top: 50px;
+}
+
+ul.navbar-nav.mr-auto,
+.jumbotron h1 {
+    font-family: 'Arvo', serif;
+    color: wheat;
+}
+footer{
+    background: #f74c3c;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+#get-involved{
+    background-color: #f5f5f5;
+}
+.jumbotron {
+    text-align: center;
+    background-image: url(../images/ai%20city.jpg);
+    background-repeat: no-repeat;
+    color: #06151a;
+}
+
+.jumbotron h1 {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.jumbotron p {
+    padding: 30px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+ul.navbar-nav.mr-auto {
+    font-size: 13px;
+}
+.learn{
+    height: 150px;
+}
+.homepage {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.homepage h2,
+.homepage h3 {
+    color: #e74c3c;
+    font-family: 'Arvo', serif;
+    text-transform: uppercase;
+
+}
+h1.display-3{
+    margin-top: 25px;
+}
+.homepage h2 {
+
+    font-size: 30px;
+}
+
+.homepage h3 {
+    color: #e74c3c;
+    font-size: 26px;
+    margin: 0px;
+}
+
+.homepage p {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.homepage hr {
+    border-top: 1px solid #e74c3c;
+    width: 160px;
+    margin-top: 15px
+}
+.homepage a:hover{
+    color:#e74c3c;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.display-1{
+    padding-top: 25px;
+}
+.py-intro{
+    text-align: center;
+}
+.python {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.HackerRank{
+    padding-top: 10px;
+}
+.python h1,
+.python h2,
+.python h3 {
+    color: #e74c3c;
+    font-family: 'Arvo', serif;
+    text-transform: uppercase;}
+.python h2 {
+
+    font-size: 35px;
+}
+
+.python h3 {
+    color: #e74c3c;
+    font-size: 21px;
+    margin: 0px;
+}
+.python p{
+    font-size: 21px;
+    font-weight: 300;
+    padding-top:10px;
+    
+}
+.python hr {
+    border-top: 1px solid #e74c3c;
+    width: 160px;
+    margin-top: 15px
+}
+.list-group-item{
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.pyteacher{
+    height: 300px;
+    width: 300px;
+    padding-top: 20px
+}
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin .card-img-left {
+  width: 45%;
+  /* Link to your background image using in the property below! */
+  background: scroll center url(../images/form.jpg);
+  background-size: cover;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 2rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+}
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}
+
+/*Responsive style*/
+@media (max-width: 1199px) {
+    .jumbotron h1{
+        font-size: 66px;
+        margin-bottom: 5px;
+    }
+    .py-intro h1{
+        font-size: 51px;
+    }
+}
+@media (max-width: 991px) {
+    .jumbotron h1{
+        font-size: 57px;
+        margin-bottom: 19px;
+    }
+    .jumbotron p{
+        padding: 0 10px;
+    }
+    #get-involved .col-md-3{
+        padding-bottom: 30px;
+    }
+    footer{
+        padding-top: 40px;
+    }
+    .python h1{
+        font-size:  44px;
+    }
+     .python h2{
+        font-size: 35px;
+    }
+    .python h3{
+        font-size: 22px;
+        padding-top: 23px;
+        padding-bottom: 10px;
+    }
+    .list-group-item{
+        font-size: 18px;
+    }
+}
+@media (max-width: 767px) {
+    .jumbotron h1{
+        font-size: 32px;
+        margin-bottom: 19px;
+    }
+    .homepage p{
+        padding-bottom: 28px;
+    }
+    footer{
+        padding-top: 28px;
+    }
+    .python h1{
+        font-size:  40px;
+    }
+    .python h2{
+        font-size: 28px;
+    }
+    .python h3{
+        font-size: 20px;
+        padding-top: 23px;
+        padding-bottom: 10px;
+    }
+    .list-group-item{
+        font-size: 17px;
+    }
+    
+}
