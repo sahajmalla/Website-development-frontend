@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>final js</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <link href="style.css" rel="stylesheet">
 </head>
@@ -15,14 +15,20 @@
         <h1>Demo</h1>
     </header>
     <nav>
-        <div class="topnav" id="myTopnav">
-            <a href="final-js-example.html" class="active">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
+        <!-- Sidebar -->
+        <div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+            <button onclick="w3_close()">Close &times;</button>
+            <div class="dropdown">
+                <button class="dropbtn">Config Dropdown</button>
+                <div class="dropdown-content">
+                    <button id="day">Day</button>
+                    <button id="night">Night</button>
+                    <button id="contrast">High Contrast</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button onclick="w3_open()">&#9776;</button>
         </div>
     </nav>
     <main>
@@ -45,7 +51,7 @@
         <p>In pulvinar mauris massa, in tempor arcu congue nec. Nullam rutrum lorem neque, non iaculis leo pulvinar ut. Curabitur ullamcorper neque eget sem iaculis, fringilla finibus lectus rutrum. Vestibulum vel sapien lobortis, eleifend est sit amet, malesuada massa. Integer sed semper tortor. Duis fermentum orci orci, vitae sodales risus elementum in. Nullam in enim fringilla, faucibus ante vitae, congue felis. </p>
 
         <p>Nullam turpis risus, hendrerit et semper id, semper ut orci. Nulla iaculis non eros id porta. Mauris a faucibus dui. Nam et nisi nec erat ullamcorper ultricies. Phasellus vel lacus non urna vestibulum sagittis. Sed mollis id augue eu commodo. Nulla suscipit dolor at tortor venenatis, a accumsan odio blandit. </p>
-         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+        <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
     </main>
 
     <footer>
